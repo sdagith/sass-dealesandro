@@ -1,0 +1,25 @@
+{
+  "name": "sass-dealesandro",
+  "version": "1.0.0",
+  "description": "Repositorio para el desafío APLICANDO SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/maincss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdagith/sass-dealesandro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdagith/sass-dealesandro/issues"
+  },
+  "homepage": "https://github.com/sdagith/sass-dealesandro#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

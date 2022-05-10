@@ -81,20 +81,24 @@ footer {
     position: fixed;
 }
 
-nav ul {
-    margin-right: 20px;
-}
+nav {
+    ul {
+        margin-right: 20px;
 
-nav ul li {
-    list-style-type: none;  
-    display: inline-block;
-    padding: 0px 10px;    
+        li {
+            list-style-type: none;  
+            display: inline-block;
+            padding: 0px 10px;    
+        }
+    }
+    
 }
 
 a {
     text-decoration: none;
     color: #E0EFF3;
 }
+
 .a-propio {
     text-decoration: none;
     color: #E0EFF3;
